@@ -1,0 +1,374 @@
+{
+  "brand": "Nativo Expeditions",
+  "tagline": "Native by nature, authentic by choice.",
+ "cta_primary": "Book Your Adventure",
+  "cta_secondary": "Discover Your Next Journey",
+  "tours_title": "Tours",
+  "tribu_title": "Tribes",
+  "schedule_title": "Schedule",
+  "pricing_title": "Pricing",
+  "testimonials_title": "Testimonials",
+  "gallery_title": "Gallery",
+  "location_title": "Location",
+  "contact_title": "Contact",
+  "form_name": "Name",
+  "form_email": "Email",
+  "form_message": "Message",
+  "form_submit": "Send",
+  "upload_label": "Upload your Hero image",
+
+  "tribes": {
+      "title": "Communities and Local Guides",
+      "subtitle": "We connect with indigenous communities and local guides for authentic and meaningful experiences",
+      "collaboration": {
+        "title": "Our Collaboration with Communities",
+        "description": "We work directly with indigenous communities to create authentic experiences that respect their traditions and contribute to the sustainable development of their people. Our local guides are cultural bridges that facilitate meaningful and mutually enriching encounters.",
+        "development": "Community Development",
+        "development_desc": "30% of profits allocated to local projects",
+        "sustainable": "Sustainable Tourism",
+        "sustainable_desc": "Responsible experiences that preserve culture and nature",
+        "exchange": "Cultural Exchange",
+        "exchange_desc": "Authentic encounters that enrich both parties"
+      }
+    },
+  "pricing": {
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "yearly": "Annual",
+    "recommended": "Recommended",
+    "price_monthly": "$89",
+    "price_quarterly": "$199",
+    "price_yearly": "$599",
+    "pricing_subtitle":"Choose the best option for you",
+    "features": {
+      "unlimited": "Unlimited classes",
+      "equipment": "Equipment access",
+      "nutrition": "Nutrition plan",
+      "personal": "Personal session included"
+    }
+  },
+  "testimonials": {
+    "testimonial1": {
+      "text": "Incredible transformation in just 3 months. The trainers are exceptional.",
+      "author": "María García"
+    },
+    "testimonial2": {
+      "text": "The atmosphere is motivating and the classes are challenging but fun.",
+      "author": "Juan Pérez"
+    },
+    "testimonial3": {
+      "text": "I 100% recommend this place. It completely changed my life.",
+      "author": "Sofia López"
+    }
+  },
+  "schedule": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "download_pdf": "Download PDF"
+  },
+  "contact": {
+    "address": "Main Ave 123, Pisac, Cusco",
+    "phone": "+51 999 888 777",
+    "email": "info@trainingcamppisac.com",
+    "privacy_policy": "I accept the privacy policy"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  },
+   
+  "tours": {
+    "title": "Our Adventures",
+    "subtitle": "Discover everything we offer",
+    "stats": {
+      "duration": "Duration",
+      "level": "Level",
+      "intensity": "Intensity",
+      "location": "Location",
+      "levels": {
+        "all": "All levels",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      },
+      "intensities": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "very_high": "Very high",
+        "variable": "Variable"
+      }
+    },
+    "details": {
+      "benefits": "Benefits",
+      "schedule": "Schedule",
+      "equipment": "What to bring",
+      "reserve": "Reserve",
+      "view_schedule": "View itinerary",
+      "learn_more": "Learn more",
+      "description": "Description"
+    },
+   "Cusco": {
+  "title": "Cusco & Sacred Valley",
+  "description": "Discover the Heart of the Inca Empire and explore the stunning Sacred Valley. A unique journey filled with history, culture, and breathtaking landscapes.",
+  "duration": "3 days / 2 nights",
+  "level": "Suitable for all travelers",
+  "locations": "Cusco, Pisac, Ollantaytambo, Chinchero",
+  "intensity": "Moderate (suitable for most visitors)",
+  "benefits": {
+    "culture": "Explore ancient Inca and colonial sites",
+    "nature": "Enjoy unique Andean landscapes",
+    "gastronomy": "Taste authentic Andean cuisine",
+    "experience": "Feel the spiritual energy of the Sacred Valley"
+  },
+  "schedule": {
+    "day1": "Arrival in Cusco, city tour, and acclimatization",
+    "day2": "Sacred Valley excursion: Pisac & Ollantaytambo",
+    "day3": "Visit to Chinchero and return to Cusco"
+  },
+  "equipment": {
+    "clothing": "Comfortable and warm clothes",
+    "footwear": "Trekking or comfortable walking shoes",
+    "accessories": "Hat, sunscreen, and water bottle",
+    "optional": "Camera for amazing photos"
+  }
+},
+
+    "manu": {
+      "title": "Manu – A Journey to the Pure Jungle",
+      "description": "Exploration of Manu National Park, astonishing biodiversity.",
+      "duration": "3 days",
+      "level": "levels.all",
+      "intensity": "intensities.variable",
+      "location": "Cusco / Madre de Dios",
+      "benefits": {
+        "wildlife": "Wildlife spotting",
+        "biodiversity": "Unique ecosystems",
+        "culture": "Interaction with native communities"
+      },
+      "schedule": {
+        "day1": "Day 1: Departure from Cusco to Manu",
+        "day2": "Day 2: Jungle hikes and wildlife observation",
+        "day3": "Day 3: Return via Madre de Dios"
+      },
+      "equipment": {
+        "insect_repellent": "Insect repellent",
+        "boots": "Hiking boots",
+        "binoculars": "Binoculars"
+      }
+    },
+    "kintu": {
+      "title": "Kintu – Coca Leaf and Traditions",
+      "description": "Take part in the sacred coca leaf ritual and learn its cultural importance.",
+      "duration": "1 day",
+      "level": "levels.all",
+      "intensity": "intensities.low",
+      "location": "Cusco",
+      "benefits": {
+        "cultural": "Learn traditional rituals",
+        "spiritual": "Spiritual connection",
+        "educational": "Ancestral knowledge"
+      },
+      "schedule": {
+        "half_day": "Half-day session with local guide"
+      },
+      "equipment": {
+        "comfy_clothes": "Comfortable clothing",
+        "sun_hat": "Hat or cap"
+      }
+    },
+    "ayahuasca": {
+      "title": "Ayahuasca Ceremony",
+      "description": "Immersion in a traditional ceremony guided by Andean healers.",
+      "duration": "1 night",
+      "level": "levels.advanced",
+      "intensity": "intensities.variable",
+      "location": "Cusco / Madre de Dios",
+      "benefits": {
+        "healing": "Emotional healing",
+        "insight": "Spiritual insight",
+        "tradition": "Ancestral connection"
+      },
+      "schedule": {
+        "evening": "Ceremony at dusk, lodging included",
+        "morning": "Return the following morning"
+      },
+      "equipment": {
+        "warm_clothes": "Warm clothing",
+        "journal": "Personal journal"
+      }
+    },
+    "qeros": {
+      "title": "Encounter with the Q’eros Culture",
+      "description": "Visit the Q’eros community and learn about their ancestral customs.",
+      "duration": "2 days",
+      "level": "levels.intermediate",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Highlands",
+      "benefits": {
+        "cultural": "Community immersion",
+        "handicrafts": "Learn traditional crafts",
+        "homestay": "Homestay with a local family"
+      },
+      "schedule": {
+        "day1": "Travel to the highlands and community home",
+        "day2": "Ceremonies and return"
+      },
+      "equipment": {
+        "hiking_stick": "Hiking stick",
+        "warm_layers": "Thermal layers"
+      }
+    },
+    "machu_picchu_comunidades": {
+      "title": "Machu Picchu + Andean Communities",
+      "description": "Cultural tour to Machu Picchu with visits to nearby communities.",
+      "duration": "2 days",
+      "level": "levels.all",
+      "intensity": "intensities.high",
+      "location": "Cusco – Sacred Valley",
+      "benefits": {
+        "heritage": "Discover Inca heritage",
+        "community": "Support local economies",
+        "scenery": "Breathtaking landscapes"
+      },
+      "schedule": {
+        "day1": "Trek and community experience",
+        "day2": "Visit to Machu Picchu"
+      },
+      "equipment": {
+        "walking_shoes": "Comfortable shoes",
+        "water": "Reusable water bottle",
+        "camera": "Camera"
+      }
+    },
+    "colpa_de_loros": {
+      "title": "Macaw Clay Lick and Native Wisdom",
+      "description": "Observe parrots and learn native wisdom.",
+      "duration": "1 day",
+      "level": "levels.all",
+      "intensity": "intensities.low",
+      "location": "Cusco – Jungle",
+      "benefits": {
+        "birdwatching": "Parrot watching",
+        "culture": "Stories of native wisdom"
+      },
+      "schedule": {
+        "morning": "Early departure, return by noon"
+      },
+      "equipment": {
+        "hat": "Hat",
+        "binoculars": "Binoculars"
+      }
+    },
+    "hongos_ninos_santos": {
+      "title": "‘Niños Santos’ Mushrooms – Tradition and Nature",
+      "description": "Explore the forest and discover the world of traditional mushrooms.",
+      "duration": "1/2 day",
+      "level": "levels.intermediate",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Highlands",
+      "benefits": {
+        "nature": "Connection with ecosystems",
+        "learning": "Mycological knowledge",
+        "culture": "Local stories"
+      },
+      "schedule": {
+        "morning": "Guided exploration in forest area"
+      },
+      "equipment": {
+        "hiking_boots": "Hiking boots",
+        "basket": "Basket for collection"
+      }
+    },
+    "kcosnipata": {
+      "title": "Kcosñipata – Andean Forest and Jungle Birds",
+      "description": "Discover the biodiversity between highlands and jungle in Kcosñipata.",
+      "duration": "1 day",
+      "level": "levels.all",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Madre de Dios",
+      "benefits": {
+        "birdwatching": "Exotic birds",
+        "ecosystem": "Ecological diversity",
+        "photography": "Green landscapes"
+      },
+      "schedule": {
+        "full_day": "Full day of hiking and observation"
+      },
+      "equipment": {
+        "binoculars": "Binoculars",
+        "hat": "Hat",
+        "light_odys": "Headlamp"
+      }
+    },
+    "wayquecha": {
+      "title": "Wayquecha – Biological Station",
+      "description": "Visit Wayquecha to learn about forest conservation.",
+      "duration": "1 day",
+      "level": "levels.all",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Highlands",
+      "benefits": {
+        "science": "Environmental education",
+        "forest": "Cloud forests",
+        "research": "Scientific process"
+      },
+      "schedule": {
+        "full_day": "Guided tour at biological station"
+      },
+      "equipment": {
+        "hiking_gear": "Hiking gear",
+        "rainjacket": "Rain jacket",
+        "notebook": "Field notebook"
+      }
+    },
+    "dos_loritos": {
+      "title": "2 Parrots – Wildlife",
+      "description": "Wildlife observation in the 2 Parrots Forest.",
+      "duration": "1 day",
+      "level": "levels.all",
+      "intensity": "intensities.variable",
+      "location": "Cusco – Madre de Dios",
+      "benefits": {
+        "wildlife": "Amazonian fauna",
+        "nature": "Natural trails",
+        "conservation": "Local support"
+      },
+      "schedule": {
+        "morning": "Morning ecological tour"
+      },
+      "equipment": {
+        "camera": "Camera",
+        "binoculars": "Binoculars",
+        "bug_spray": "Insect repellent"
+      }
+    },
+    "matsigenka": {
+      "title": "Matsigenka Native Community",
+      "description": "Discover the life and traditions of the Matsigenka in the jungle.",
+      "duration": "2 days",
+      "level": "levels.intermediate",
+      "intensity": "intensities.variable",
+      "location": "Madre de Dios – Jungle",
+      "benefits": {
+        "culture": "Community life",
+        "crafts": "Traditional crafts",
+        "forest": "Tropical forests"
+      },
+      "schedule": {
+        "day1": "Arrival and introduction to the community",
+        "day2": "Cultural activities and learning"
+      },
+      "equipment": {
+        "comfortable_clothing": "Comfortable clothing",
+        "sun_protection": "Sun protection",
+        "mosquito_net": "Mosquito net"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Configuración para modo oscuro negro puro */
+    --color-dark-bg: #000000;      /* Negro absoluto */
+    --color-dark-text: #ffffff;    /* Blanco puro */
+    --color-dark-card: #0d0d0d;    /* Negro casi puro */
+    --color-dark-border: #1a1a1a;  /* Borde negro intenso */
+    --color-dark-ring: #2a2a2a;    /* Anillos de focus */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    @apply bg-white dark:bg-[var(--color-dark-bg)] text-gray-900 dark:text-[var(--color-dark-text)];
+  }
+
+  /* Focus styles - ajustados para modo oscuro */
+  :focus,
+  button:focus,
+  a:focus,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    @apply outline-none ring-2 ring-orange-500 ring-offset-2 dark:ring-offset-[var(--color-dark-ring)];
+  }
+}
+
+@layer components {
+  /* Botones - versión oscura mejorada */
+  .btn-primary {
+    @apply px-6 py-3 bg-orange-600 hover:bg-orange-700 
+           dark:bg-orange-500 dark:hover:bg-orange-400 
+           text-white font-semibold rounded-lg 
+           transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border-2 border-orange-600 
+           text-orange-600 hover:bg-orange-600 hover:text-white 
+           dark:border-orange-500 dark:text-orange-400 
+           dark:hover:bg-orange-500 dark:hover:text-white 
+           font-semibold rounded-lg transition-all duration-200;
+  }
+
+  /* Cards - completamente negras */
+  .card {
+    @apply bg-white dark:bg-[var(--color-dark-card)] 
+           dark:border dark:border-[var(--color-dark-border)]
+           rounded-xl shadow-lg hover:shadow-xl 
+           transition-all duration-300;
+  }
+
+  /* Efecto vidrio - versión oscura */
+  .glass-effect {
+    @apply bg-white/10 dark:bg-black/30 
+           backdrop-blur-md border border-white/20 
+           dark:border-gray-800/50;
+  }
+}
+
+/* Resto de utilidades (se mantienen igual) */
+@layer utilities {
+  .animation-delay-200 { animation-delay: 0.2s; }
+  .animation-delay-400 { animation-delay: 0.4s; }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
+  }
+  .backdrop-blur-strong { backdrop-filter: blur(20px); }
+  .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+}
+
+/* Animations */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+
+/* Dark mode enforcement */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+  
+  /* Garantiza que todos los fondos sean negros */
+  body, .card, .glass-effect {
+    background-color: var(--color-dark-bg) !important;
+  }
+}

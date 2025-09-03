@@ -1,0 +1,355 @@
+{
+  "brand": "Nativo Expeditions",
+  "tagline": "Nativo por naturaleza, auténtico por elección.",
+  "cta_primary": "Reserva tu Aventura",
+  "cta_secondary": "Descubre tu proximo Destino",
+  "tours_title": "Tours",
+  "tribu_title": "Tribus",
+  "schedule_title": "Horarios",
+  "pricing_title": "Planes",
+  "testimonials_title": "Testimonios",
+  "gallery_title": "Galería",
+  "location_title": "Ubicación",
+  "contact_title": "Contacto",
+  "form_name": "Nombre",
+  "form_email": "Correo",
+  "form_message": "Mensaje",
+  "form_submit": "Enviar",
+  "upload_label": "Sube tu imagen para el Hero",
+  "pricing": {
+    "monthly": "Mensual",
+    "quarterly": "Trimestral",
+    "yearly": "Anual",
+    "recommended": "Recomendado",
+    "price_monthly": "$89",
+    "price_quarterly": "$199",
+    "price_yearly": "$599",
+    "pricing_subtitle": "Elije la mejor Opcion para ti",
+    "features": {
+      "unlimited": "Clases ilimitadas",
+      "equipment": "Acceso a equipamiento",
+      "nutrition": "Plan nutricional",
+      "personal": "Sesión personal incluida"
+    }
+  },
+  "testimonials": {
+    "testimonial1": {
+      "text": "Increíble transformación en solo 3 meses. Los entrenadores son excepcionales.",
+      "author": "María García"
+    },
+    "testimonial2": {
+      "text": "El ambiente es motivador y las clases son desafiantes pero divertidas.",
+      "author": "Juan Pérez"
+    },
+    "testimonial3": {
+      "text": "Recomiendo 100% este lugar. Cambió mi vida completamente.",
+      "author": "Sofia López"
+    }
+  },
+  "schedule": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "download_pdf": "Descargar PDF"
+  },
+  "contact": {
+    "address": "Av. Principal 123, Pisac, Cusco",
+    "phone": "+51 999 888 777",
+    "email": "info@trainingcamppisac.com",
+    "privacy_policy": "Acepto la política de privacidad"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones"
+  },
+  "tours": {
+    "title": "Nuestras Aventuras",
+    "subtitle": "Descubre todo lo que ofrecemos",
+    "stats": {
+      "duration": "Duración",
+      "level": "Nivel",
+      "intensity": "Intensidad",
+      "location": "Ubicación",
+      "levels": {
+        "all": "Todos los niveles",
+        "intermediate": "Intermedio",
+        "advanced": "Avanzado"
+      },
+      "intensities": {
+        "low": "Baja",
+        "medium": "Media",
+        "high": "Alta",
+        "very_high": "Muy Alta",
+        "variable": "variable"
+      }
+    },
+    "details": {
+      "benefits": "Beneficios",
+      "schedule": "Horario",
+      "equipment": "Equipo",
+      "reserve": "Clase de Prueba Gratis",
+      "view_schedule": "Ver Horario",
+      "learn_more": "Mas Informacion",
+      "description": "Descripcion"
+    },
+    "cusco": {
+      "title": "Cusco & Valle Sagrado",
+      "description": "Explora la Ciudad del Ombligo del Mundo y sumérgete en la magia del Valle Sagrado de los Incas. Una experiencia inolvidable entre historia, cultura y paisajes impresionantes.",
+      "duration": "3 días / 2 noches",
+      "level": "Todo tipo de viajeros",
+      "locations": "Cusco, Pisac, Ollantaytambo, Chinchero",
+      "intensity": "Moderada (apto para la mayoría de viajeros)",
+      "benefits": {
+        "culture": "Conoce sitios arqueológicos incas y coloniales",
+        "nature": "Disfruta de paisajes andinos únicos",
+        "gastronomy": "Degusta la auténtica cocina andina",
+        "experience": "Vive la energía espiritual del Valle Sagrado"
+      },
+      "schedule": {
+        "day1": "Llegada a Cusco, city tour y aclimatación",
+        "day2": "Excursión al Valle Sagrado: Pisac y Ollantaytambo",
+        "day3": "Visita a Chinchero y regreso a Cusco"
+      },
+      "equipment": {
+        "clothing": "Ropa cómoda y abrigadora",
+        "footwear": "Zapatos de trekking o cómodos para caminar",
+        "accessories": "Sombrero, bloqueador solar y botella de agua",
+        "optional": "Cámara fotográfica"
+      }
+    },
+    "manu": {
+      "title": "Manu – Un viaje a la selva pura",
+      "description": "Exploración del Parque Nacional de Manu, biodiversidad asombrosa.",
+      "duration": "3 días",
+      "level": "levels.all",
+      "intensity": "intensities.variable",
+      "location": "Cusco / Madre de Dios",
+      "benefits": {
+        "wildlife": "Avistamiento de vida silvestre",
+        "biodiversity": "Ecosistemas únicos",
+        "culture": "Interacción con comunidades nativas"
+      },
+      "schedule": {
+        "day1": "Día 1: Salida desde Cusco hacia Manu",
+        "day2": "Día 2: Caminatas en la selva y observación de fauna",
+        "day3": "Día 3: Retorno vía madre de Dios"
+      },
+      "equipment": {
+        "insect_repellent": "Repelente de insectos",
+        "boots": "Botas de caminata",
+        "binoculars": "Binoculares"
+      }
+    },
+    "kintu": {
+      "title": "Kintu – Hoja de coca y tradiciones",
+      "description": "Participa del ritual sagrado de la hoja de coca y conoce su importancia cultural.",
+      "duration": "1 día",
+      "level": "levels.all",
+      "intensity": "intensities.low",
+      "location": "Cusco",
+      "benefits": {
+        "cultural": "Aprende rituales tradicionales",
+        "spiritual": "Conexión espiritual",
+        "educational": "Conocimiento ancestral"
+      },
+      "schedule": {
+        "half_day": "Sesión de medio día con guía local"
+      },
+      "equipment": {
+        "comfy_clothes": "Ropa cómoda",
+        "sun_hat": "Sombrero o gorra"
+      }
+    },
+    "ayahuasca": {
+      "title": "Ceremonia de Ayahuasca",
+      "description": "Inmersión en una ceremonia tradicional guiada por curanderos andinos.",
+      "duration": "1 noche",
+      "level": "levels.advanced",
+      "intensity": "intensities.variable",
+      "location": "Cusco / Madre de Dios",
+      "benefits": {
+        "healing": "Sanación emocional",
+        "insight": "Perspectiva espiritual",
+        "tradition": "Conexión ancestral"
+      },
+      "schedule": {
+        "evening": "Ceremonia al anochecer, alojamiento incl.",
+        "morning": "Retorno por la mañana siguiente"
+      },
+      "equipment": {
+        "warm_clothes": "Ropa abrigadora",
+        "journal": "Cuaderno personal"
+      }
+    },
+    "qeros": {
+      "title": "Encuentro con la cultura Q’eros",
+      "description": "Visita a la comunidad Q’eros y aprende sus costumbres ancestrales.",
+      "duration": "2 días",
+      "level": "levels.intermediate",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Sierra",
+      "benefits": {
+        "cultural": "Inmersión comunitaria",
+        "handicrafts": "Aprende artesanía tradicional",
+        "homestay": "Hospedaje en casa local"
+      },
+      "schedule": {
+        "day1": "Viaje a las alturas y hogar comunitario",
+        "day2": "Ceremonias y regreso"
+      },
+      "equipment": {
+        "hiking_stick": "Bastón de caminata",
+        "warm_layers": "Capas térmicas"
+      }
+    },
+    "machu_picchu_comunidades": {
+      "title": "Machu Picchu + Comunidades Andinas",
+      "description": "Tour cultural a Machu Picchu con visita a comunidades cercanas.",
+      "duration": "2 días",
+      "level": "levels.all",
+      "intensity": "intensities.high",
+      "location": "Cusco – Vallle Sagrado",
+      "benefits": {
+        "heritage": "Descubre el legado inca",
+        "community": "Apoya economías locales",
+        "scenery": "Paisajes impresionantes"
+      },
+      "schedule": {
+        "day1": "Camino y comunidad",
+        "day2": "Visita a Machu Picchu"
+      },
+      "equipment": {
+        "walking_shoes": "Zapatos cómodos",
+        "water": "Botella reutilizable",
+        "camera": "Cámara fotográfica"
+      }
+    },
+    "colpa_de_loros": {
+      "title": "Colpa de Loros y Sabiduría Nativa",
+      "description": "Observación de loros y aprendizaje de sabiduría ancestral.",
+      "duration": "1 día",
+      "level": "levels.all",
+      "intensity": "intensities.low",
+      "location": "Cusco – Selva",
+      "benefits": {
+        "birdwatching": "Avistamiento de loros",
+        "culture": "Relatos de sabiduría nativa"
+      },
+      "schedule": {
+        "morning": "Salida temprano, regreso al mediodía"
+      },
+      "equipment": {
+        "hat": "Sombrero",
+        "binoculars": "Binoculares"
+      }
+    },
+    "hongos_ninos_santos": {
+      "title": "Hongos ‘Niños Santos’ – Tradición y naturaleza",
+      "description": "Explora el bosque y descubre el mundo de los hongos tradicionales.",
+      "duration": "1/2 día",
+      "level": "levels.intermediate",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Sierra",
+      "benefits": {
+        "nature": "Conexión con ecosistemas",
+        "learning": "Conocimiento micológico",
+        "culture": "Historias locales"
+      },
+      "schedule": {
+        "morning": "Exploración guiada por zona boscosa"
+      },
+      "equipment": {
+        "hiking_boots": "Botas de senderismo",
+        "basket": "Cesta para recolección"
+      }
+    },
+    "kcosnipata": {
+      "title": "Kcosñipata – Bosque Andino y Aves de Selva",
+      "description": "Descubre la biodiversidad entre sierra y selva en Kcosñipata.",
+      "duration": "1 día",
+      "level": "levels.all",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Madre de Dios",
+      "benefits": {
+        "birdwatching": "Aves exóticas",
+        "ecosystem": "Diversidad ecológica",
+        "photography": "Paisajes verdes"
+      },
+      "schedule": {
+        "full_day": "Día completo de caminata y observación"
+      },
+      "equipment": {
+        "binoculars": "Binoculares",
+        "hat": "Sombrero",
+        "light_odys": "Luz frontal"
+      }
+    },
+    "wayquecha": {
+      "title": "Wayquecha – Estación Biológica",
+      "description": "Visita a Wayquecha para aprender sobre conservación forestal.",
+      "duration": "1 día",
+      "level": "levels.all",
+      "intensity": "intensities.medium",
+      "location": "Cusco – Sierra",
+      "benefits": {
+        "science": "Educación medioambiental",
+        "forest": "Bosques nublados",
+        "research": "Proceso científico"
+      },
+      "schedule": {
+        "full_day": "Tour guiado en estación biológica"
+      },
+      "equipment": {
+        "hiking_gear": "Equipo de senderismo",
+        "rainjacket": "Impermeable",
+        "notebook": "Cuaderno de campo"
+      }
+    },
+    "dos_loritos": {
+      "title": "2 Loritos – Vida Silvestre",
+      "description": "Observación de fauna en el Bosque de 2 Loritos.",
+      "duration": "1 día",
+      "level": "levels.all",
+      "intensity": "intensities.variable",
+      "location": "Cusco – Madre de Dios",
+      "benefits": {
+        "wildlife": "Fauna amazónica",
+        "nature": "Senderos naturales",
+        "conservation": "Apoyo local"
+      },
+      "schedule": {
+        "morning": "Tour ecológico por la mañana"
+      },
+      "equipment": {
+        "camera": "Cámara",
+        "binoculars": "Binoculares",
+        "bug_spray": "Repelente de insectos"
+      }
+    },
+    "matsigenka": {
+      "title": "Comunidad Nativa Matsigenka",
+      "description": "Conoce la vida y tradiciones Matsigenka en la selva.",
+      "duration": "2 días",
+      "level": "levels.intermediate",
+      "intensity": "intensities.variable",
+      "location": "Madre de Dios – Selva",
+      "benefits": {
+        "culture": "Vida comunitaria",
+        "crafts": "Artesanía tradicional",
+        "forest": "Bosques tropicales"
+      },
+      "schedule": {
+        "day1": "Llegada y conocimiento de la comunidad",
+        "day2": "Actividades culturales y aprendizaje"
+      },
+      "equipment": {
+        "comfortable_clothing": "Ropa cómoda",
+        "sun_protection": "Protección solar",
+        "mosquito_net": "Mosquitero"
+      }
+    }}}
