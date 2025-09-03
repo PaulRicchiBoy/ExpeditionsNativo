@@ -105,7 +105,7 @@ export const Location: React.FC = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Training Camp Pisac Location"
+                title="Nativo Location"
               ></iframe>
             </div>
           </motion.div>

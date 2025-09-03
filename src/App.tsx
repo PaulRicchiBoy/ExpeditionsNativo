@@ -5,7 +5,7 @@ import { Home } from './pages/Home';
 function App() {
   useEffect(() => {
     // SEO Meta Tags
-    document.title = 'Camp Pisac - Academia de Artes Marciales';
+    document.title = 'Nativo Expeditions';
     
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta');
     metaDescription.setAttribute('name', 'description');
@@ -24,7 +24,7 @@ function App() {
     // Open Graph Tags
     const ogTitle = document.querySelector('meta[property="og:title"]') || document.createElement('meta');
     ogTitle.setAttribute('property', 'og:title');
-    ogTitle.setAttribute('content', 'Training Camp Pisac - Academia de Artes Marciales');
+    ogTitle.setAttribute('content', 'Nativo Expeditions');
     if (!document.querySelector('meta[property="og:title"]')) {
       document.head.appendChild(ogTitle);
     }
