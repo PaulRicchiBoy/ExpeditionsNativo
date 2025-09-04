@@ -59,7 +59,7 @@
   "contact": {
     "address": "Av. Principal 123, Pisac, Cusco",
     "phone": "+51 999 888 777",
-    "email": "info@trainingcamppisac.com",
+    "email": "info@Nativo Expeditions.com",
     "privacy_policy": "Acepto la política de privacidad"
   },
   "footer": {
@@ -67,6 +67,11 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos y Condiciones"
   },
+   "tiktok":{
+"gallery":{
+  "title":"Galeria Tiktok",
+  "subtitle":"Veelo por ti mismo"
+}},
   "tours": {
     "title": "Nuestras Aventuras",
     "subtitle": "Descubre todo lo que ofrecemos",

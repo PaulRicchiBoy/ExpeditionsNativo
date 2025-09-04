@@ -31,6 +31,7 @@
         "exchange_desc": "Authentic encounters that enrich both parties"
       }
     },
+ 
   "pricing": {
     "monthly": "Monthly",
     "quarterly": "Quarterly",
@@ -74,7 +75,7 @@
   "contact": {
     "address": "Main Ave 123, Pisac, Cusco",
     "phone": "+51 999 888 777",
-    "email": "info@trainingcamppisac.com",
+    "email": "info@Nativo Expeditions.com",
     "privacy_policy": "I accept the privacy policy"
   },
   "footer": {
@@ -370,5 +371,11 @@
         "mosquito_net": "Mosquito net"
       }
     }
-  }
+  },
+     "tiktok":{
+"gallery":{
+  "title":"Galeria Tiktok",
+  "subtitle":"Veelo por ti mismo"
+}
+    }
 }

@@ -59,7 +59,7 @@ export const Footer: React.FC = () => {
               <h3 className="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
               <ul className="space-y-2 text-sm">
                 {[
-                  { key: 'disciplines_title', id: 'disciplines' },
+                  { key: 'tours_title', id: 'tours' },
                   { key: 'coaches_title', id: 'coaches' },
                   { key: 'schedule_title', id: 'schedule' },
                   { key: 'pricing_title', id: 'pricing' },
