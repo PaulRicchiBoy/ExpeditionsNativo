@@ -8,14 +8,14 @@ export const Gallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const galleryImages = [
-    'https://lh3.googleusercontent.com/p/AF1QipO3Ug63TJL1rdgCNVlrv2yxaYaOgxGE5GputJsS=s680-w680-h510-rw',
-    'https://lh3.googleusercontent.com/p/AF1QipP4qtabGOt3TDYt-R7ZxnpESqfSsykMHsSZfIEI=s680-w680-h510-rw',
-    'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nra5r2e_sb6xGzRxQm-pJ-I9kTjhbX82_DvdzbzKdidxfrF23heU4_GTcIudJhfGh4vMtWG-5tq93OpY79tAvQw81OcoXk0v1qgBGAqwDmLDozh1V-JCcL4Y2XJ9hZvIxEEaEom=s680-w680-h510-rw',
-    'https://lh3.googleusercontent.com/p/AF1QipPjPc_ZQHMz_xxKwPdiTrR4UGcbLtp8igmRk-st=s680-w680-h510-rw',
-    'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrXPS5IZRQ0_qY7lEuRUjNDZ7K50X8cVCN5kdLoKhxsWxKydlacFGODotLAGerS4EGxu6xFVpgJ6Nf5ImyKb7BYm6kscULpcLcpj_7jIcb2Bmv6QQCsVjaCxHyOH-18BWYZIcxl5w=s680-w680-h510-rw',
-    'https://lh3.googleusercontent.com/p/AF1QipNMHEBa_ZAB_867cEPhbWV2-0VrTqgE5V1mKfXD=s680-w680-h510-rw',
-    'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrXPS5IZRQ0_qY7lEuRUjNDZ7K50X8cVCN5kdLoKhxsWxKydlacFGODotLAGerS4EGxu6xFVpgJ6Nf5ImyKb7BYm6kscULpcLcpj_7jIcb2Bmv6QQCsVjaCxHyOH-18BWYZIcxl5w=s680-w680-h510-rw'
+    'https://media.istockphoto.com/id/2219381774/es/foto/boat-sailing-in-the-waters-of-the-nanay-river.webp?a=1&b=1&s=612x612&w=0&k=20&c=gw9Hm-sfrK_JirstAZPOKcsJnjIepUIu7oIKpSIJ8R8=',
+    'https://media.istockphoto.com/id/1461467511/es/foto/joven-de-pie-en-balsa-de-madera-flotar-en-tropical-ex%C3%B3tica-selva-amaz%C3%B3nica-selva-agua-lago-r%C3%ADo.webp?a=1&b=1&s=612x612&w=0&k=20&c=HiyLAXlHVB99t-fQzK9184K4ULcSupuuJpxNezxqorA=',
+    'https://media.istockphoto.com/id/2219381774/es/foto/boat-sailing-in-the-waters-of-the-nanay-river.webp?a=1&b=1&s=612x612&w=0&k=20&c=gw9Hm-sfrK_JirstAZPOKcsJnjIepUIu7oIKpSIJ8R8=',
+    'https://images.unsplash.com/photo-1698374540649-bd0972848292?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHR1cmlzbW8lMjBwZXJ1JTIwc2VsdmF8ZW58MHx8MHx8fDA%3D',
+    'https://plus.unsplash.com/premium_photo-1733342570944-57261d1dff34?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHR1cmlzbW8lMjBwZXJ1JTIwc2VsdmF8ZW58MHx8MHx8fDA%3D',
+    'https://images.unsplash.com/photo-1574607815146-ba00a5f234ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHR1cmlzbW8lMjBwZXJ1JTIwc2VsdmF8ZW58MHx8MHx8fDA%3D',
+    'https://images.unsplash.com/photo-1660966237650-be9c6e8af3ab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dHVyaXNtbyUyMHBlcnUlMjBzZWx2YXxlbnwwfHwwfHx8MA%3D%3D',
+    'https://images.unsplash.com/photo-1568402102889-8307563f757f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHVyaXNtbyUyMHBlcnUlMjBzZWx2YXxlbnwwfHwwfHx8MA%3D%3D'
   ];
 
   return (

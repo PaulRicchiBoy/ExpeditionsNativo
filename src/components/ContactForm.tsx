@@ -73,14 +73,14 @@ export const ContactForm: React.FC = () => {
         animate={{ opacity: 1, scale: 1 }}
         className="text-center py-12"
       >
-        <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
-          <Check className="h-8 w-8 text-green-600 dark:text-green-400" />
+        <div className="w-16 h-16 bg-emerald-100 dark:bg-emerald-900 rounded-full flex items-center justify-center mx-auto mb-4">
+          <Check className="h-8 w-8 text-emerald-600 dark:text-emerald-400" />
         </div>
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-          ¡Mensaje enviado!
+          ¡Mensaje enviado con éxito!
         </h3>
         <p className="text-gray-600 dark:text-gray-400">
-          Te contactaremos pronto para programar tu clase gratuita.
+          Te contactaremos pronto para responder tus consultas sobre nuestros productos.
         </p>
       </motion.div>
     );
@@ -97,7 +97,7 @@ export const ContactForm: React.FC = () => {
     >
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-          {t('form_name')} *
+          Nombre completo *
         </label>
         <input
           type="text"
@@ -105,7 +105,7 @@ export const ContactForm: React.FC = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-colors ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-colors ${
             errors.name
               ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
               : 'border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700'
@@ -119,7 +119,7 @@ export const ContactForm: React.FC = () => {
 
       <div>
         <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-          {t('form_email')} *
+          Correo electrónico *
         </label>
         <input
           type="email"
@@ -127,7 +127,7 @@ export const ContactForm: React.FC = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-colors ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-colors ${
             errors.email
               ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
               : 'border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700'
@@ -140,8 +140,8 @@ export const ContactForm: React.FC = () => {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-[#1a1a1a] dark:text-gray-300 mb-2">
-          {t('form_message')} *
+        <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          Mensaje *
         </label>
         <textarea
           id="message"
@@ -149,12 +149,12 @@ export const ContactForm: React.FC = () => {
           rows={5}
           value={formData.message}
           onChange={handleChange}
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-colors resize-none ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-colors resize-none ${
             errors.message
               ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
               : 'border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700'
           } text-gray-900 dark:text-white`}
-          placeholder="Cuéntanos sobre tus objetivos y qué disciplinas te interesan..."
+          placeholder="Cuéntanos qué productos te interesan o si tienes alguna consulta especial..."
         />
         {errors.message && (
           <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.message}</p>
@@ -168,10 +168,10 @@ export const ContactForm: React.FC = () => {
             name="privacy"
             checked={formData.privacy}
             onChange={handleChange}
-            className="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
+            className="mt-1 h-4 w-4 text-emerald-600 focus:ring-emerald-500 border-gray-300 rounded transition-colors"
           />
           <span className="text-sm text-gray-600 dark:text-gray-400">
-            {t('contact.privacy_policy')} *
+            Acepto la política de privacidad y el tratamiento de mis datos *
           </span>
         </label>
         {errors.privacy && (
@@ -182,19 +182,23 @@ export const ContactForm: React.FC = () => {
       <motion.button
         type="submit"
         disabled={isSubmitting}
-        whileHover={{ scale: isSubmitting ? 1 : 1.05 }}
-        whileTap={{ scale: isSubmitting ? 1 : 0.95 }}
-        className="w-full flex items-center justify-center px-6 py-3 bg-orange-600 hover:bg-orange-700 disabled:bg-orange-400 text-white font-semibold rounded-lg transition-colors duration-200"
+        whileHover={{ scale: isSubmitting ? 1 : 1.02 }}
+        whileTap={{ scale: isSubmitting ? 1 : 0.98 }}
+        className="w-full flex items-center justify-center px-6 py-3 bg-gradient-to-r from-emerald-600 to-green-500 hover:from-emerald-700 hover:to-green-600 disabled:from-emerald-400 disabled:to-green-300 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
       >
         {isSubmitting ? (
           <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin" />
         ) : (
           <>
             <Send className="h-5 w-5 mr-2" />
-            {t('form_submit')}
+            Enviar mensaje
           </>
         )}
       </motion.button>
+
+      <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
+        Tus datos están protegidos. No compartimos tu información con terceros.
+      </p>
     </motion.form>
   );
 };

@@ -67,11 +67,13 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos y Condiciones"
   },
-   "tiktok":{
+    "tiktok":{
+      "title":"Multimedia",
 "gallery":{
   "title":"Galeria Tiktok",
   "subtitle":"Veelo por ti mismo"
-}},
+}
+    },
   "tours": {
     "title": "Nuestras Aventuras",
     "subtitle": "Descubre todo lo que ofrecemos",

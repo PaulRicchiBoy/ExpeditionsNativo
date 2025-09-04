@@ -1,70 +1,72 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import  { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Users, MapPin, Languages, Award } from 'lucide-react';
+import { MapPin, Award, Heart, ChevronRight, ChevronLeft } from 'lucide-react';
 
-export const Tribes: React.FC = () => {
-  const { t } = useTranslation();
+export const Tribes = () => {
+  const [activeTribe, setActiveTribe] = useState(0);
 
   const tribes = [
     {
       id: 'matsigenka',
       name: 'Matsigenka',
-      image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1hem9uJTIwdHJpYmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+      image: 'https://amazonica.pe/archivos/2018/12/2640c85c-4213-4cae-8e89-42d3602c0b08.jpg',
       location: 'Madre de Dios, Perú',
-      language: 'Matsigenka',
-      specialty: 'Cultura Amazónica',
-      description: 'Guardianes ancestrales de la biodiversidad amazónica'
+      specialty: 'Textiles Amazónicos',
+      description: 'Guardianes ancestrales de la biodiversidad amazónica y expertos en técnicas textiles tradicionales con tintes naturales.',
+      collaboration: '15 años trabajando juntos',
+      products: 'Telares naturales, tintes orgánicos, patrones ancestrales'
     },
     {
       id: 'marakaeri',
       name: 'Marakaeri',
-      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWdlbm91cyUyMHRyaWJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRprigbANCWwHD5NTXlbNQspFdDFbFP0NDmdA&s',
       location: 'Cusco, Perú',
-      language: 'Harakmbut',
-      specialty: 'Tradiciones Andinas',
-      description: 'Pueblo originario de la región del Manu'
+      specialty: 'Joyería Artesanal',
+      description: 'Pueblo originario de la región del Manu con una rica herencia en joyería artesanal y técnicas de metalurgia tradicional.',
+      collaboration: '12 años de asociación',
+      products: 'Joyas en plata, piedras semipreciosas, símbolos culturales'
     },
     {
       id: 'qeros',
       name: 'Q\'eros',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW5kZXMlMjB0cmliZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      image: "https://www.paucartambo.info/images/turismo/qeros/qeros.jpg",
       location: 'Paucartambo, Cusco',
-      language: 'Quechua',
-      specialty: 'Sabiduría Inca',
-      description: 'Últimos descendientes directos de los Incas'
-    },
-    {
-      id: 'wachipaeri',
-      name: 'Wachipaeri',
-      image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWdlbm91cyUyMHRyaWJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-      location: 'Madre de Dios, Perú',
-      language: 'Wachipaeri',
-      specialty: 'Medicina Tradicional',
-      description: 'Expertos en plantas medicinales amazónicas'
+      specialty: 'Textiles Sagrados',
+      description: 'Últimos descendientes directos de los Incas, maestros en técnicas textiles milenarias y patrones con significado espiritual.',
+      collaboration: '18 años de colaboración',
+      products: 'Prendas ceremoniales, símbolos sagrados, tejidos de alta energía'
     },
     {
       id: 'ashaninka',
       name: 'Ashaninka',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW5kZXMlMjB0cmliZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      location: 'Junín y Cusco, Perú',
-      language: 'Ashaninka',
+      image: "https://elorejiverde.com/images/foto-semanal/Wilberto.jpg",
       specialty: 'Artesanía Textil',
-      description: 'Maestros tejedores de la Amazonía peruana'
+      description: 'Maestros tejedores de la Amazonía peruana que preservan técnicas ancestrales en cada pieza que crean con dedicación y respeto.',
+      collaboration: '10 años de alianza',
+      products: 'Bordados tradicionales, tejidos con historias, prendas únicas'
     },
     {
       id: 'guia_local',
       name: 'Guías Locales',
-      image: 'https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGd1aWRlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRghseqL5xYJty7dEJIf9QmQnkBnpVBvPgZKA&s',
       location: 'Varias comunidades',
-      language: 'Quechua y Español',
       specialty: 'Conectores Culturales',
-      description: 'Comunicación entre culturas y experiencias auténticas'
+      description: 'Comunicación entre culturas y experiencias auténticas que enriquecen cada encuentro con nuestras comunidades asociadas.',
+      collaboration: '8 años de colaboración',
+      products: 'Tours culturales, experiencias auténticas, conexiones genuinas'
     }
   ];
 
+  const nextTribe = () => {
+    setActiveTribe((prev) => (prev + 1) % tribes.length);
+  };
+
+  const prevTribe = () => {
+    setActiveTribe((prev) => (prev - 1 + tribes.length) % tribes.length);
+  };
+
   return (
-    <section id="tribes" className="py-20 bg-white dark:bg-[#111111]">
+    <section id="tribes" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a0a] dark:to-[#1a1a1a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -73,120 +75,171 @@ export const Tribes: React.FC = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-4">
-            {t('tribes.title')}
+          <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-6">
+            Comunidades <span className="text-emerald-600">Andinas</span> con las que colaboramos
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-emerald-500 mx-auto mb-6"></div>
-          <p className="text-lg text-black dark:text-gray-300 max-w-2xl mx-auto">
-            {t('tribes.subtitle')}
+          <div className="w-32 h-1 bg-gradient-to-r from-emerald-500 to-green-400 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+            En Lulus Fashion Store trabajamos directamente con comunidades indígenas del Perú, 
+            preservando sus técnicas ancestrales y apoyando su desarrollo sostenible.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {tribes.map((tribe, index) => (
+        {/* Carousel Navigation */}
+        <div className="flex justify-center mb-10">
+          <div className="flex flex-wrap justify-center gap-2">
+            {tribes.map((tribe, index) => (
+              <button
+                key={tribe.id}
+                onClick={() => setActiveTribe(index)}
+                className={`px-4 py-2 rounded-full font-medium transition-all duration-300 ${
+                  index === activeTribe
+                    ? 'bg-emerald-600 text-white shadow-lg'
+                    : 'bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-emerald-100 dark:hover:bg-emerald-900/30'
+                }`}
+              >
+                {tribe.name}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Main Carousel */}
+        <div className="relative">
+          <div className="overflow-hidden rounded-3xl shadow-2xl">
             <motion.div
-              key={tribe.id}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-gradient-to-b from-gray-50 to-white dark:from-[#1a1a1a] dark:to-[#222222] rounded-2xl p-6 text-center group hover:shadow-xl transition-all duration-300 border border-green-100 dark:border-green-900/50 hover:border-green-300 dark:hover:border-green-700"
+              key={activeTribe}
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
+              className="bg-gradient-to-r from-gray-50 to-white dark:from-[#1a1a1a] dark:to-[#222222] p-8 md:p-12"
             >
-              <div className="relative mb-6">
-                <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-green-200 dark:border-green-800 group-hover:border-green-400 dark:group-hover:border-green-600 transition-colors duration-300">
-                  <img
-                    src={tribe.image}
-                    alt={tribe.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
-                  <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-r from-green-600 to-emerald-500 rounded-full shadow-lg">
-                    <Users className="h-5 w-5 text-white" />
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                {/* Image Section */}
+                <div className="relative">
+                  <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
+                    <img
+                      src={tribes[activeTribe].image}
+                      alt={tribes[activeTribe].name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4">
+                    <div className="flex items-center">
+                      <Heart className="h-5 w-5 text-emerald-600 mr-2" />
+                      <span className="text-sm font-semibold text-gray-800 dark:text-white">
+                        {tribes[activeTribe].collaboration}
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <h3 className="text-xl font-semibold text-black dark:text-white mb-2">
-                {tribe.name}
-              </h3>
-              
-              <p className="text-green-600 dark:text-green-400 font-medium mb-4">
-                {tribe.specialty}
-              </p>
-              
-              <div className="space-y-3 mb-4">
-                <div className="flex items-center justify-center text-sm text-black dark:text-gray-300">
-                  <MapPin className="h-4 w-4 text-green-500 mr-2" />
-                  <span>{tribe.location}</span>
-                </div>
-                
-                <div className="flex items-center justify-center text-sm text-black dark:text-gray-300">
-                  <Languages className="h-4 w-4 text-green-500 mr-2" />
-                  <span>{tribe.language}</span>
-                </div>
-              </div>
+                {/* Content Section */}
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-3xl font-bold text-black dark:text-white mb-2">
+                      {tribes[activeTribe].name}
+                    </h3>
+                    <div className="flex items-center text-emerald-600 dark:text-emerald-400 mb-4">
+                      <MapPin className="h-5 w-5 mr-2" />
+                      <span className="font-medium">{tribes[activeTribe].location}</span>
+                    </div>
+                    <div className="inline-block bg-emerald-100 dark:bg-emerald-900/30 px-4 py-2 rounded-full mb-6">
+                      <span className="text-emerald-700 dark:text-emerald-300 font-semibold">
+                        {tribes[activeTribe].specialty}
+                      </span>
+                    </div>
+                  </div>
 
-              <p className="text-black dark:text-gray-300 text-sm mb-4 italic">
-                {tribe.description}
-              </p>
+                  <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    {tribes[activeTribe].description}
+                  </p>
 
-              <div className="flex items-center justify-center mt-4">
-                <div className="bg-green-100 dark:bg-green-900/30 px-3 py-1 rounded-full">
-                  <span className="text-xs font-medium text-green-700 dark:text-green-300 flex items-center">
-                    <Award className="h-3 w-3 mr-1" />
-                    Colaboradores
-                  </span>
+                  <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-5">
+                    <h4 className="font-semibold text-black dark:text-white mb-3 flex items-center">
+                      <Award className="h-5 w-5 text-emerald-600 mr-2" />
+                      Productos destacados
+                    </h4>
+                    <p className="text-gray-700 dark:text-gray-300">
+                      {tribes[activeTribe].products}
+                    </p>
+                  </div>
+
+                  <button className="group flex items-center text-emerald-600 dark:text-emerald-400 font-semibold hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-300">
+                    Ver colección completa
+                    <ChevronRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+                  </button>
                 </div>
               </div>
             </motion.div>
-          ))}
+          </div>
+
+          {/* Navigation Arrows */}
+          <button
+            onClick={prevTribe}
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-800 rounded-full p-3 shadow-lg hover:bg-emerald-50 dark:hover:bg-emerald-900/30 transition-colors duration-300"
+          >
+            <ChevronLeft className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
+          </button>
+          <button
+            onClick={nextTribe}
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-800 rounded-full p-3 shadow-lg hover:bg-emerald-50 dark:hover:bg-emerald-900/30 transition-colors duration-300"
+          >
+            <ChevronRight className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
+          </button>
         </div>
 
-        {/* Información adicional sobre la colaboración */}
+        {/* Indicadores de progreso */}
+        <div className="flex justify-center mt-6">
+          <div className="flex space-x-2">
+            {tribes.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setActiveTribe(index)}
+                className={`w-3 h-3 rounded-full transition-all ${
+                  index === activeTribe
+                    ? 'bg-emerald-600 w-8'
+                    : 'bg-gray-300 dark:bg-gray-700'
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Impact Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-16 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-2xl p-8 border border-green-200 dark:border-green-800"
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-20 bg-gradient-to-r from-emerald-600 to-green-500 rounded-3xl p-8 md:p-12 text-white"
         >
-          <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-bold text-black dark:text-white mb-4">
-              {t('tribes.collaboration.title')}
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+              Nuestro impacto en las comunidades
             </h3>
-            <p className="text-black dark:text-gray-300 mb-6">
-              {t('tribes.collaboration.description')}
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-green-100 dark:bg-green-800 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg className="w-6 h-6 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
-                </div>
-                <h4 className="font-semibold text-black dark:text-white">{t('tribes.collaboration.development')}</h4>
-                <p className="text-sm text-black dark:text-gray-400 mt-1">{t('tribes.collaboration.development_desc')}</p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <div>
+                <div className="text-4xl font-bold mb-2">200+</div>
+                <p className="text-emerald-100">Artesanos apoyados</p>
               </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-green-100 dark:bg-green-800 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg className="w-6 h-6 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                  </svg>
-                </div>
-                <h4 className="font-semibold text-black dark:text-white">{t('tribes.collaboration.sustainable')}</h4>
-                <p className="text-sm text-black dark:text-gray-400 mt-1">{t('tribes.collaboration.sustainable_desc')}</p>
+              <div>
+                <div className="text-4xl font-bold mb-2">15</div>
+                <p className="text-emerald-100">Años de colaboración</p>
               </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-green-100 dark:bg-green-800 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg className="w-6 h-6 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h4 className="font-semibold text-black dark:text-white">{t('tribes.collaboration.exchange')}</h4>
-                <p className="text-sm text-black dark:text-gray-400 mt-1">{t('tribes.collaboration.exchange_desc')}</p>
+              <div>
+                <div className="text-4xl font-bold mb-2">100%</div>
+                <p className="text-emerald-100">Comercio justo</p>
               </div>
+            </div>
+
+            <div className="mt-10 bg-white/10 rounded-xl p-6">
+              <p className="text-lg italic text-center">
+                "Cada viaje con Nativo ayuda a preservar técnicas ancestrales 
+                y apoya el desarrollo sostenible de comunidades andinas."
+              </p>
             </div>
           </div>
         </motion.div>

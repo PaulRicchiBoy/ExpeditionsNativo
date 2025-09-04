@@ -3,9 +3,7 @@ import { Navbar } from '../components/Navbar';
 import { Hero } from '../components/Hero';
 import { Tours } from '../components/tours';
 import {Tribes } from '../components/Tribes';
-import { TiktokGallery } from '../components/Schedule';
-import { Pricing } from '../components/Pricing';
-import { Testimonials } from '../components/Testimonials';
+import { TiktokGallery } from '../components/tiktok';
 import { Gallery } from '../components/Gallery';
 import { Location } from '../components/Location';
 import { Contact } from '../components/Contact';
@@ -19,8 +17,6 @@ export const Home: React.FC = () => {
       <Tours />
       <Tribes />
       <TiktokGallery />
-      <Pricing />
-      <Testimonials />
       <Gallery />
       <Location />
       <Contact />
