@@ -2,20 +2,88 @@
   "brand": "Nativo Expeditions",
   "tagline": "Nativo por naturaleza, auténtico por elección.",
   "cta_primary": "Reserva tu Aventura",
-  "cta_secondary": "Descubre tu proximo Destino",
+  "cta_secondary": "Descubre tu Próximo Viaje",
   "tours_title": "Tours",
   "tribu_title": "Tribus",
   "schedule_title": "Horarios",
-  "pricing_title": "Planes",
+  "pricing_title": "Precios",
   "testimonials_title": "Testimonios",
   "gallery_title": "Galería",
+  "gallery_Subtitle":"Descubre la magia de la selva peruana a través de nuestras experiencias únicas",  
+
   "location_title": "Ubicación",
   "contact_title": "Contacto",
   "form_name": "Nombre",
-  "form_email": "Correo",
+  "form_email": "Correo electrónico",
   "form_message": "Mensaje",
   "form_submit": "Enviar",
-  "upload_label": "Sube tu imagen para el Hero",
+  "upload_label": "Sube tu imagen Hero",
+
+  "tribes": {
+    "title": "Comunidades",
+    "titleHighlight": "Andinas con las que colaboramos",
+    "subtitle": "En Lulus Fashion Store trabajamos directamente con comunidades indígenas del Perú, preservando sus técnicas ancestrales y apoyando su desarrollo sostenible.",
+    "impactTitle": "Nuestro impacto en las comunidades",
+    "artisans": "Artesanos apoyados",
+    "years": "Años de colaboración",
+    "fairTrade": "Comercio justo",
+    "quote": "\"Cada viaje con Nativo ayuda a preservar técnicas ancestrales y apoya el desarrollo sostenible de comunidades andinas.\"",
+    "viewCollection": "Ver colección completa",
+    "featuredProducts": "Productos destacados",
+    "communities": {
+      "matsigenka": {
+        "name": "Matsigenka",
+        "location": "Madre de Dios, Perú",
+        "specialty": "Textiles Amazónicos",
+        "description": "Guardianes ancestrales de la biodiversidad amazónica y expertos en técnicas textiles tradicionales con tintes naturales.",
+        "collaboration": "15 años trabajando juntos",
+        "products": "Telares naturales, tintes orgánicos, patrones ancestrales"
+      },
+      "marakaeri": {
+        "name": "Marakaeri",
+        "location": "Cusco, Perú",
+        "specialty": "Joyería Artesanal",
+        "description": "Pueblo originario de la región del Manu con una rica herencia en joyería artesanal y técnicas de metalurgia tradicional.",
+        "collaboration": "12 años de asociación",
+        "products": "Joyas en plata, piedras semipreciosas, símbolos culturales"
+      },
+      "qeros": {
+        "name": "Q'eros",
+        "location": "Paucartambo, Cusco",
+        "specialty": "Textiles Sagrados",
+        "description": "Últimos descendientes directos de los Incas, maestros en técnicas textiles milenarias y patrones con significado espiritual.",
+        "collaboration": "18 años de colaboración",
+        "products": "Prendas ceremoniales, símbolos sagrados, tejidos de alta energía"
+      },
+      "ashaninka": {
+        "name": "Ashaninka",
+        "location": "Amazonía Peruana",
+        "specialty": "Artesanía Textil",
+        "description": "Maestros tejedores de la Amazonía peruana que preservan técnicas ancestrales en cada pieza que crean con dedicación y respeto.",
+        "collaboration": "10 años de alianza",
+        "products": "Bordados tradicionales, tejidos con historias, prendas únicas"
+      },
+      "guia_local": {
+        "name": "Guías Locales",
+        "location": "Varias comunidades",
+        "specialty": "Conectores Culturales",
+        "description": "Comunicación entre culturas y experiencias auténticas que enriquecen cada encuentro con nuestras comunidades asociadas.",
+        "collaboration": "8 años de colaboración",
+        "products": "Tours culturales, experiencias auténticas, conexiones genuinas"
+      }
+    },
+    "collaboration": {
+      "title": "Nuestra Colaboración con Comunidades",
+      "description": "Trabajamos directamente con comunidades indígenas para crear experiencias auténticas que respeten sus tradiciones y contribuyan al desarrollo sostenible de su pueblo. Nuestros guías locales son puentes culturales que facilitan encuentros significativos y enriquecedores mutuamente.",
+      "development": "Desarrollo Comunitario",
+      "development_desc": "30% de las ganancias destinadas a proyectos locales",
+      "sustainable": "Turismo Sostenible",
+      "sustainable_desc": "Experiencias responsables que preservan cultura y naturaleza",
+      "exchange": "Intercambio Cultural",
+      "exchange_desc": "Encuentros auténticos que enriquecen a ambas partes"
+    }
+  },
+
   "pricing": {
     "monthly": "Mensual",
     "quarterly": "Trimestral",
@@ -24,17 +92,17 @@
     "price_monthly": "$89",
     "price_quarterly": "$199",
     "price_yearly": "$599",
-    "pricing_subtitle": "Elije la mejor Opcion para ti",
+    "pricing_subtitle": "Elige la mejor opción para ti",
     "features": {
       "unlimited": "Clases ilimitadas",
-      "equipment": "Acceso a equipamiento",
-      "nutrition": "Plan nutricional",
+      "equipment": "Acceso a equipos",
+      "nutrition": "Plan de nutrición",
       "personal": "Sesión personal incluida"
     }
   },
   "testimonials": {
     "testimonial1": {
-      "text": "Increíble transformación en solo 3 meses. Los entrenadores son excepcionales.",
+      "text": "Transformación increíble en solo 3 meses. Los entrenadores son excepcionales.",
       "author": "María García"
     },
     "testimonial2": {
@@ -42,7 +110,7 @@
       "author": "Juan Pérez"
     },
     "testimonial3": {
-      "text": "Recomiendo 100% este lugar. Cambió mi vida completamente.",
+      "text": "Recomiendo 100% este lugar. Cambió completamente mi vida.",
       "author": "Sofia López"
     }
   },
@@ -67,13 +135,7 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos y Condiciones"
   },
-    "tiktok":{
-      "title":"Multimedia",
-"gallery":{
-  "title":"Galeria Tiktok",
-  "subtitle":"Veelo por ti mismo"
-}
-    },
+   
   "tours": {
     "title": "Nuestras Aventuras",
     "subtitle": "Descubre todo lo que ofrecemos",
@@ -91,47 +153,47 @@
         "low": "Baja",
         "medium": "Media",
         "high": "Alta",
-        "very_high": "Muy Alta",
-        "variable": "variable"
+        "very_high": "Muy alta",
+        "variable": "Variable"
       }
     },
     "details": {
       "benefits": "Beneficios",
-      "schedule": "Horario",
-      "equipment": "Equipo",
-      "reserve": "Clase de Prueba Gratis",
-      "view_schedule": "Ver Horario",
-      "learn_more": "Mas Informacion",
-      "description": "Descripcion"
+      "schedule": "Itinerario",
+      "equipment": "Qué llevar",
+      "reserve": "Reservar",
+      "view_schedule": "Ver itinerario",
+      "learn_more": "Saber más",
+      "description": "Descripción"
     },
     "cusco": {
       "title": "Cusco & Valle Sagrado",
-      "description": "Explora la Ciudad del Ombligo del Mundo y sumérgete en la magia del Valle Sagrado de los Incas. Una experiencia inolvidable entre historia, cultura y paisajes impresionantes.",
+      "description": "Descubre el Corazón del Imperio Inca y explora el impresionante Valle Sagrado. Un viaje único lleno de historia, cultura y paisajes impresionantes.",
       "duration": "3 días / 2 noches",
-      "level": "Todo tipo de viajeros",
+      "level": "Apto para todos los viajeros",
       "locations": "Cusco, Pisac, Ollantaytambo, Chinchero",
-      "intensity": "Moderada (apto para la mayoría de viajeros)",
+      "intensity": "Moderada (apta para la mayoría de visitantes)",
       "benefits": {
-        "culture": "Conoce sitios arqueológicos incas y coloniales",
-        "nature": "Disfruta de paisajes andinos únicos",
-        "gastronomy": "Degusta la auténtica cocina andina",
-        "experience": "Vive la energía espiritual del Valle Sagrado"
+        "culture": "Explora sitios incas y coloniales antiguos",
+        "nature": "Disfruta paisajes andinos únicos",
+        "gastronomy": "Prueba la auténtica cocina andina",
+        "experience": "Siente la energía espiritual del Valle Sagrado"
       },
       "schedule": {
         "day1": "Llegada a Cusco, city tour y aclimatación",
-        "day2": "Excursión al Valle Sagrado: Pisac y Ollantaytambo",
+        "day2": "Excursión al Valle Sagrado: Pisac & Ollantaytambo",
         "day3": "Visita a Chinchero y regreso a Cusco"
       },
       "equipment": {
         "clothing": "Ropa cómoda y abrigadora",
         "footwear": "Zapatos de trekking o cómodos para caminar",
-        "accessories": "Sombrero, bloqueador solar y botella de agua",
-        "optional": "Cámara fotográfica"
+        "accessories": "Sombrero, protector solar y botella de agua",
+        "optional": "Cámara para fotos increíbles"
       }
     },
     "manu": {
-      "title": "Manu – Un viaje a la selva pura",
-      "description": "Exploración del Parque Nacional de Manu, biodiversidad asombrosa.",
+      "title": "Manu – Un Viaje a la Jungla Pura",
+      "description": "Exploración del Parque Nacional Manu, biodiversidad asombrosa.",
       "duration": "3 días",
       "level": "levels.all",
       "intensity": "intensities.variable",
@@ -142,19 +204,67 @@
         "culture": "Interacción con comunidades nativas"
       },
       "schedule": {
-        "day1": "Día 1: Salida desde Cusco hacia Manu",
-        "day2": "Día 2: Caminatas en la selva y observación de fauna",
-        "day3": "Día 3: Retorno vía madre de Dios"
+        "day1": "Día 1: Salida de Cusco a Manu",
+        "day2": "Día 2: Caminatas en la jungla y observación de vida silvestre",
+        "day3": "Día 3: Regreso por Madre de Dios"
       },
       "equipment": {
         "insect_repellent": "Repelente de insectos",
-        "boots": "Botas de caminata",
+        "boots": "Botas de senderismo",
         "binoculars": "Binoculares"
       }
     },
+    "fantastico": {
+      "title": "Perú Fantástico 10D/9N",
+      "description": "Un recorrido completo por Lima, Paracas, Cusco y Puno. Incluye Machu Picchu, Montaña de Colores, Valle Sagrado, Lago Titicaca y más.",
+      "schedule": [
+        "Día 1: Llegada a Lima",
+        "Día 2: Paracas – Ica – Huacachina",
+        "Día 3: Vuelo a Cusco – City Tour",
+        "Día 4: Valle Sagrado de los Incas",
+        "Día 5: Machu Picchu",
+        "Día 6: Montaña de Colores",
+        "Día 7: Laguna Humantay",
+        "Día 8: Ruta del Sol a Puno",
+        "Día 9: Islas Uros y Taquile",
+        "Día 10: Regreso"
+      ],
+      "equipment": [
+        "Boletos incluidos",
+        "Guía profesional bilingüe",
+        "Hoteles seleccionados",
+        "Transporte y traslados",
+        "Tren Expedition / Voyager"
+      ],
+      "price": "USD 1200",
+      "paymentLink": "https://www.mercadopago.com.pe/checkout/v1/payment/redirect/9c52f06b-0057-4199-8625-82df85d5612a/payment-option-form/?source=link&preference-id=2682496834-9b12c13f-4fad-4c29-b8eb-c40a21f78d5c&router-request-id=42615827-90fd-4d99-9a78-6be3b116f93c&p=3181fd1b6b5971c239a39fc93ae07246"
+    },
+    "magico": {
+      "title": "Perú Mágico 8D/7N",
+      "description": "Una experiencia inolvidable por Lima, Paracas y Cusco. Visita Huacachina, Machu Picchu, Montaña de Colores y Laguna Humantay.",
+      "schedule": [
+        "Día 1: Llegada a Lima",
+        "Día 2: Paracas – Ica – Huacachina",
+        "Día 3: Vuelo a Cusco – City Tour",
+        "Día 4: Valle Sagrado de los Incas",
+        "Día 5: Machu Picchu",
+        "Día 6: Montaña de Colores",
+        "Día 7: Laguna Humantay",
+        "Día 8: Regreso"
+      ],
+      "equipment": [
+        "Boletos incluidos",
+        "Guía profesional bilingüe",
+        "Hoteles seleccionados",
+        "Transporte y traslados",
+        "Tren Expedition / Voyager"
+      ],
+      "price": "USD 950",
+      "paymentLink": "#"
+    },
     "kintu": {
-      "title": "Kintu – Hoja de coca y tradiciones",
-      "description": "Participa del ritual sagrado de la hoja de coca y conoce su importancia cultural.",
+      "title": "Kintu – Hoja de Coca y Tradiciones",
+      "description": "Participa en el ritual sagrado de la hoja de coca y aprende su importancia cultural.",
       "duration": "1 día",
       "level": "levels.all",
       "intensity": "intensities.low",
@@ -181,74 +291,74 @@
       "location": "Cusco / Madre de Dios",
       "benefits": {
         "healing": "Sanación emocional",
-        "insight": "Perspectiva espiritual",
+        "insight": "Perspicacia espiritual",
         "tradition": "Conexión ancestral"
       },
       "schedule": {
-        "evening": "Ceremonia al anochecer, alojamiento incl.",
-        "morning": "Retorno por la mañana siguiente"
+        "evening": "Ceremonia al anochecer, alojamiento incluido",
+        "morning": "Regreso a la mañana siguiente"
       },
       "equipment": {
         "warm_clothes": "Ropa abrigadora",
-        "journal": "Cuaderno personal"
+        "journal": "Diario personal"
       }
     },
     "qeros": {
-      "title": "Encuentro con la cultura Q’eros",
-      "description": "Visita a la comunidad Q’eros y aprende sus costumbres ancestrales.",
+      "title": "Encuentro con la Cultura Q'eros",
+      "description": "Visita la comunidad Q'eros y aprende sobre sus costumbres ancestrales.",
       "duration": "2 días",
       "level": "levels.intermediate",
       "intensity": "intensities.medium",
-      "location": "Cusco – Sierra",
+      "location": "Cusco – Zona Altoandina",
       "benefits": {
         "cultural": "Inmersión comunitaria",
-        "handicrafts": "Aprende artesanía tradicional",
-        "homestay": "Hospedaje en casa local"
+        "handicrafts": "Aprende artesanías tradicionales",
+        "homestay": "Hospedaje con familia local"
       },
       "schedule": {
-        "day1": "Viaje a las alturas y hogar comunitario",
+        "day1": "Viaje a la zona altoandina y hogar comunitario",
         "day2": "Ceremonias y regreso"
       },
       "equipment": {
-        "hiking_stick": "Bastón de caminata",
+        "hiking_stick": "Bastón de senderismo",
         "warm_layers": "Capas térmicas"
       }
     },
     "machu_picchu_comunidades": {
       "title": "Machu Picchu + Comunidades Andinas",
-      "description": "Tour cultural a Machu Picchu con visita a comunidades cercanas.",
+      "description": "Tour cultural a Machu Picchu con visitas a comunidades cercanas.",
       "duration": "2 días",
       "level": "levels.all",
       "intensity": "intensities.high",
-      "location": "Cusco – Vallle Sagrado",
+      "location": "Cusco – Valle Sagrado",
       "benefits": {
-        "heritage": "Descubre el legado inca",
+        "heritage": "Descubre el patrimonio Inca",
         "community": "Apoya economías locales",
         "scenery": "Paisajes impresionantes"
       },
       "schedule": {
-        "day1": "Camino y comunidad",
+        "day1": "Trekking y experiencia comunitaria",
         "day2": "Visita a Machu Picchu"
       },
       "equipment": {
         "walking_shoes": "Zapatos cómodos",
-        "water": "Botella reutilizable",
-        "camera": "Cámara fotográfica"
+        "water": "Botella de agua reutilizable",
+        "camera": "Cámara"
       }
     },
     "colpa_de_loros": {
       "title": "Colpa de Loros y Sabiduría Nativa",
-      "description": "Observación de loros y aprendizaje de sabiduría ancestral.",
+      "description": "Observa loros y aprende sabiduría nativa.",
       "duration": "1 día",
       "level": "levels.all",
       "intensity": "intensities.low",
       "location": "Cusco – Selva",
       "benefits": {
         "birdwatching": "Avistamiento de loros",
-        "culture": "Relatos de sabiduría nativa"
+        "culture": "Historias de sabiduría nativa"
       },
       "schedule": {
-        "morning": "Salida temprano, regreso al mediodía"
+        "morning": "Salida temprana, regreso al mediodía"
       },
       "equipment": {
         "hat": "Sombrero",
@@ -256,28 +366,28 @@
       }
     },
     "hongos_ninos_santos": {
-      "title": "Hongos ‘Niños Santos’ – Tradición y naturaleza",
+      "title": "Hongos 'Niños Santos' – Tradición y Naturaleza",
       "description": "Explora el bosque y descubre el mundo de los hongos tradicionales.",
       "duration": "1/2 día",
       "level": "levels.intermediate",
       "intensity": "intensities.medium",
-      "location": "Cusco – Sierra",
+      "location": "Cusco – Zona Altoandina",
       "benefits": {
         "nature": "Conexión con ecosistemas",
         "learning": "Conocimiento micológico",
         "culture": "Historias locales"
       },
       "schedule": {
-        "morning": "Exploración guiada por zona boscosa"
+        "morning": "Exploración guiada en zona boscosa"
       },
       "equipment": {
         "hiking_boots": "Botas de senderismo",
-        "basket": "Cesta para recolección"
+        "basket": "Canasta para recolección"
       }
     },
     "kcosnipata": {
-      "title": "Kcosñipata – Bosque Andino y Aves de Selva",
-      "description": "Descubre la biodiversidad entre sierra y selva en Kcosñipata.",
+      "title": "Kcosñipata – Bosque Andino y Aves de la Selva",
+      "description": "Descubre la biodiversidad entre la sierra y la selva en Kcosñipata.",
       "duration": "1 día",
       "level": "levels.all",
       "intensity": "intensities.medium",
@@ -293,19 +403,19 @@
       "equipment": {
         "binoculars": "Binoculares",
         "hat": "Sombrero",
-        "light_odys": "Luz frontal"
+        "light_odys": "Linterna frontal"
       }
     },
     "wayquecha": {
       "title": "Wayquecha – Estación Biológica",
-      "description": "Visita a Wayquecha para aprender sobre conservación forestal.",
+      "description": "Visita Wayquecha para aprender sobre conservación de bosques.",
       "duration": "1 día",
       "level": "levels.all",
       "intensity": "intensities.medium",
-      "location": "Cusco – Sierra",
+      "location": "Cusco – Zona Altoandina",
       "benefits": {
-        "science": "Educación medioambiental",
-        "forest": "Bosques nublados",
+        "science": "Educación ambiental",
+        "forest": "Bosques nubosos",
         "research": "Proceso científico"
       },
       "schedule": {
@@ -313,13 +423,13 @@
       },
       "equipment": {
         "hiking_gear": "Equipo de senderismo",
-        "rainjacket": "Impermeable",
+        "rainjacket": "Chaqueta impermeable",
         "notebook": "Cuaderno de campo"
       }
     },
     "dos_loritos": {
       "title": "2 Loritos – Vida Silvestre",
-      "description": "Observación de fauna en el Bosque de 2 Loritos.",
+      "description": "Observación de vida silvestre en el Bosque 2 Loritos.",
       "duration": "1 día",
       "level": "levels.all",
       "intensity": "intensities.variable",
@@ -330,7 +440,7 @@
         "conservation": "Apoyo local"
       },
       "schedule": {
-        "morning": "Tour ecológico por la mañana"
+        "morning": "Tour ecológico matutino"
       },
       "equipment": {
         "camera": "Cámara",
@@ -340,18 +450,18 @@
     },
     "matsigenka": {
       "title": "Comunidad Nativa Matsigenka",
-      "description": "Conoce la vida y tradiciones Matsigenka en la selva.",
+      "description": "Descubre la vida y tradiciones de los Matsigenka en la selva.",
       "duration": "2 días",
       "level": "levels.intermediate",
       "intensity": "intensities.variable",
       "location": "Madre de Dios – Selva",
       "benefits": {
         "culture": "Vida comunitaria",
-        "crafts": "Artesanía tradicional",
+        "crafts": "Artesanías tradicionales",
         "forest": "Bosques tropicales"
       },
       "schedule": {
-        "day1": "Llegada y conocimiento de la comunidad",
+        "day1": "Llegada e introducción a la comunidad",
         "day2": "Actividades culturales y aprendizaje"
       },
       "equipment": {
@@ -359,4 +469,72 @@
         "sun_protection": "Protección solar",
         "mosquito_net": "Mosquitero"
       }
-    }}}
+    }
+  },
+ 
+  "tiktok": {
+  "gallery": {
+    "title": "Galería TikTok",
+    "subtitle": "Vélo por ti mismo"
+  },
+  "instagramButton": "Instagram",
+  "followTiktokButton": "Seguir en TikTok",
+  "loadingText": "Cargando video de TikTok...",
+  "loadingVideosText": "Cargando videos de TikTok...",
+  "loadingTimeText": "Esto puede tomar unos segundos",
+  "followPrompt": "¿Te gustó nuestro contenido? ¡Síguenos para más aventuras!",
+  "videos": {
+    "aventura_selva": {
+      "title": "Aventura en la Selva",
+      "description": "Explorando la biodiversidad amazónica #nativo #aventura #selva"
+    },
+    "cultura_matsigenka": {
+      "title": "Cultura Matsigenka",
+      "description": "Conociendo tradiciones del pueblo Matsigenka #cultura #peru"
+    },
+    "rituales_ancestrales": {
+      "title": "Rituales Ancestrales",
+      "description": "Participando en ceremonias tradicionales #ritual #ancestral"
+    },
+    "gastronomia_local": {
+      "title": "Gastronomía Local",
+      "description": "Degustando platos típicos de la región #comida #peru"
+    }
+  }
+}
+,
+  "location": {
+    "title": "Visítanos en",
+    "locationName": "San Sebastián",
+    "description": "Encuéntranos en el Tercer Paradero de San Sebastián, a solo minutos del centro de Cusco",
+    "addressTitle": "Dirección",
+    "address": "Tercer Paradero de San Sebastián",
+    "city": "Cusco, Perú",
+    "addressNote": "A 15 minutos del centro histórico",
+    "phoneTitle": "Teléfono",
+    "emailTitle": "Email",
+    "hoursTitle": "Horario de atención",
+    "weekHours": "Lunes a Sábado: 9:00 AM - 7:00 PM",
+    "sundayHours": "Domingo: 10:00 AM - 5:00 PM",
+    "directionsButton": "Cómo llegar",
+    "mapIndicator": "📍 Tercer Paradero, San Sebastián",
+    "directionsTitle": "Indicaciones",
+    "directionsText": "Desde la Plaza de Armas de Cusco, tomar transporte hacia San Sebastián (15 min). Bajarse en el Tercer Paradero. Estamos ubicados en la avenida principal.",
+    "whyVisitTitle": "¿Por qué visitarnos en San Sebastián?",
+    "easyAccess": "Fácil acceso",
+    "easyAccessDesc": "A solo 15 minutos del centro de Cusco con transporte frecuente.",
+    "localCraft": "Artesanía local",
+    "localCraftDesc": "Trabajamos directamente con artesanos de San Sebastián y comunidades aledañas.",
+    "directPrices": "Precios directos",
+    "directPricesDesc": "Al estar cerca de las comunidades, ofrecemos precios más accesibles sin intermediarios.",
+    "authenticity": "Autenticidad garantizada",
+    "authenticityDesc": "Todos nuestros productos son elaborados por artesanos locales usando técnicas tradicionales.",
+    "howToGetTitle": "Cómo llegar a nuestro local",
+    "fromCenter": "Desde el Centro",
+    "fromCenterDesc": "Tomar combi con cartel \"San Sebastián\" (15 minutos)",
+    "taxi": "Taxi",
+    "taxiDesc": "10 minutos desde Plaza de Armas (aproximadamente S/ 8-10)",
+    "reference": "Referencia",
+    "referenceDesc": "Frente al mercado de San Sebastián, Tercer Paradero"
+  }
+}

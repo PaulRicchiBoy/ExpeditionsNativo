@@ -24,26 +24,26 @@ export const TiktokGallery: React.FC = () => {
   const tiktokVideos = [
     {
       id: 1,
-      title: "Aventura en la Selva",
-      description: "Explorando la biodiversidad amazónica #nativo #aventura #selva",
+      title: t('tiktok.videos.aventura_selva.title') || "Aventura en la Selva",
+      description: t('tiktok.videos.aventura_selva.description') || "Explorando la biodiversidad amazónica #nativo #aventura #selva",
       videoId: "7542135717682580754",
     },
     {
       id: 2,
-      title: "Cultura Matsigenka",
-      description: "Conociendo tradiciones del pueblo Matsigenka #cultura #peru",
+      title: t('tiktok.videos.cultura_matsigenka.title') || "Cultura Matsigenka",
+      description: t('tiktok.videos.cultura_matsigenka.description') || "Conociendo tradiciones del pueblo Matsigenka #cultura #peru",
       videoId: "7540754830428622098",
     },
     {
       id: 3,
-      title: "Rituales Ancestrales",
-      description: "Participando en ceremonias tradicionales #ritual #ancestral",
+      title: t('tiktok.videos.rituales_ancestrales.title') || "Rituales Ancestrales",
+      description: t('tiktok.videos.rituales_ancestrales.description') || "Participando en ceremonias tradicionales #ritual #ancestral",
       videoId: "7539636709718379784",
     },
     {
       id: 4,
-      title: "Gastronomía Local",
-      description: "Degustando platos típicos de la región #comida #peru",
+      title: t('tiktok.videos.gastronomia_local.title') || "Gastronomía Local",
+      description: t('tiktok.videos.gastronomia_local.description') || "Degustando platos típicos de la región #comida #peru",
       videoId: "7537910426751782149",
     },
   ];
@@ -104,7 +104,7 @@ export const TiktokGallery: React.FC = () => {
   }, [isScriptLoaded, initAttempts]);
 
   return (
-    <section id="tiktok-gallery" className="py-16 bg-gradient-to-br from-rose-50 to-amber-50 dark:from-gray-900 dark:to-[#111111]">
+    <section id="galleryTiktok" className="py-16 bg-gradient-to-br from-rose-50 to-amber-50 dark:from-gray-900 dark:to-[#111111]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -131,7 +131,7 @@ export const TiktokGallery: React.FC = () => {
               className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium rounded-lg transition-all shadow-lg shadow-purple-500/20"
             >
               <Instagram className="h-5 w-5 mr-2" />
-              Instagram
+              {t('tiktok.instagramButton') || "Instagram"}
             </motion.a>
             <motion.a
               href="https://www.tiktok.com/@nativo.expedition"
@@ -142,7 +142,7 @@ export const TiktokGallery: React.FC = () => {
               className="inline-flex items-center px-5 py-2.5 bg-gray-900 hover:bg-black text-white font-medium rounded-lg transition-all shadow-lg shadow-gray-900/30"
             >
               <Music className="h-5 w-5 mr-2" />
-              Seguir en TikTok
+              {t('tiktok.followTiktokButton') || "Seguir en TikTok"}
             </motion.a>
           </div>
         </motion.div>
@@ -169,35 +169,29 @@ export const TiktokGallery: React.FC = () => {
                   </div>
                 </div>
                 
-                <div className="relative rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-700 aspect-[9/16]">
-                  <blockquote 
-                    className="tiktok-embed absolute inset-0 w-full h-full" 
+                <div className="relative rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-700">
+                  <blockquote
+                    className="tiktok-embed w-full"
                     cite={`https://www.tiktok.com/@nativo.expedition/video/${video.videoId}`}
                     data-video-id={video.videoId}
-                    style={{ border: 'none' }}
+                    style={{
+                      margin: 0,
+                      padding: 0,
+                      border: "none",
+                      display: "block",
+                      width: "100%"
+                    }}
                   >
-                    <section className="w-full h-full flex items-center justify-center bg-gray-900">
+                    <section className="flex items-center justify-center bg-gray-900">
                       <div className="text-white text-center p-4">
                         <div className="animate-pulse flex flex-col items-center">
                           <Music className="h-10 w-10 mb-2 text-rose-500" />
-                          <p className="text-sm">Cargando video de TikTok...</p>
+                          <p className="text-sm">{t('tiktok.loadingText') || "Cargando video de TikTok..."}</p>
                           <p className="text-xs mt-2 text-gray-400">@nativo.expedition</p>
                         </div>
                       </div>
                     </section>
                   </blockquote>
-                </div>
-
-                <div className="flex justify-end items-center mt-3">
-                  <a 
-                    href={`https://www.tiktok.com/@nativo.expedition/video/${video.videoId}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-rose-600 hover:text-rose-700 dark:text-rose-400 dark:hover:text-rose-300 font-medium text-sm"
-                  >
-                    <ExternalLink className="h-4 w-4 mr-1" />
-                    Ver en TikTok
-                  </a>
                 </div>
               </div>
             </motion.div>
@@ -212,8 +206,8 @@ export const TiktokGallery: React.FC = () => {
           >
             <div className="animate-pulse flex flex-col items-center">
               <Music className="h-8 w-8 text-rose-500 mb-2" />
-              <p className="text-rose-700 dark:text-rose-300 font-medium">Cargando videos de TikTok...</p>
-              <p className="text-rose-600 dark:text-rose-400 text-sm mt-1">Esto puede tomar unos segundos</p>
+              <p className="text-rose-700 dark:text-rose-300 font-medium">{t('tiktok.loadingVideosText') || "Cargando videos de TikTok..."}</p>
+              <p className="text-rose-600 dark:text-rose-400 text-sm mt-1">{t('tiktok.loadingTimeText') || "Esto puede tomar unos segundos"}</p>
             </div>
           </motion.div>
         )}
@@ -226,7 +220,7 @@ export const TiktokGallery: React.FC = () => {
           className="text-center mt-16"
         >
           <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg">
-            ¿Te gustó nuestro contenido? ¡Síguenos para más aventuras!
+            {t('tiktok.followPrompt') || "¿Te gustó nuestro contenido? ¡Síguenos para más aventuras!"}
           </p>
           <motion.a
             href="https://www.tiktok.com/@nativo.expedition"
@@ -237,7 +231,7 @@ export const TiktokGallery: React.FC = () => {
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white font-medium rounded-lg transition-all shadow-lg shadow-rose-500/30 text-lg"
           >
             <Music className="h-5 w-5 mr-2" />
-            Seguir en TikTok
+            {t('tiktok.followTiktokButton') || "Seguir en TikTok"}
           </motion.a>
         </motion.div>
       </div>

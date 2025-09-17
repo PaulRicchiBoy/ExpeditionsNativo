@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
   const navItems = [
     { key: 'tours_title', id: 'tours' },
     { key: 'tribu_title', id: 'tribes' },
-    { key: 'tiktok.title', id: 'tiktok-gallery' },
+    { key: 'gallery_title', id: 'galleryTiktok' },
     { key: 'pricing_title', id: 'pricing' },
     { key: 'contact_title', id: 'contact' },
   ];

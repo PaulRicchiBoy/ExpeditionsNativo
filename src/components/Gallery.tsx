@@ -32,7 +32,7 @@ export const Gallery: React.FC = () => {
             {t('gallery_title')}
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Descubre nuestras instalaciones y la energía de nuestras clases
+            {t('gallery_Subtitle')}
           </p>
         </motion.div>
 

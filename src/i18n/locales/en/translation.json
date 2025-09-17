@@ -1,7 +1,7 @@
 {
   "brand": "Nativo Expeditions",
   "tagline": "Native by nature, authentic by choice.",
- "cta_primary": "Book Your Adventure",
+  "cta_primary": "Book Your Adventure",
   "cta_secondary": "Discover Your Next Journey",
   "tours_title": "Tours",
   "tribu_title": "Tribes",
@@ -9,6 +9,8 @@
   "pricing_title": "Pricing",
   "testimonials_title": "Testimonials",
   "gallery_title": "Gallery",
+
+"gallery_Subtitle":"Discover the magic of the Peruvian jungle through our unique experiences",  
   "location_title": "Location",
   "contact_title": "Contact",
   "form_name": "Name",
@@ -18,20 +20,70 @@
   "upload_label": "Upload your Hero image",
 
   "tribes": {
-      "title": "Communities and Local Guides",
-      "subtitle": "We connect with indigenous communities and local guides for authentic and meaningful experiences",
-      "collaboration": {
-        "title": "Our Collaboration with Communities",
-        "description": "We work directly with indigenous communities to create authentic experiences that respect their traditions and contribute to the sustainable development of their people. Our local guides are cultural bridges that facilitate meaningful and mutually enriching encounters.",
-        "development": "Community Development",
-        "development_desc": "30% of profits allocated to local projects",
-        "sustainable": "Sustainable Tourism",
-        "sustainable_desc": "Responsible experiences that preserve culture and nature",
-        "exchange": "Cultural Exchange",
-        "exchange_desc": "Authentic encounters that enrich both parties"
+    "title": "Andean",
+    "titleHighlight": "Communities We Collaborate With",
+    "subtitle": "At Lulus Fashion Store, we work directly with indigenous communities from Peru, preserving their ancestral techniques and supporting their sustainable development.",
+    "impactTitle": "Our impact on communities",
+    "artisans": "Artisans supported",
+    "years": "Years of collaboration",
+    "fairTrade": "Fair trade",
+    "quote": "\"Every journey with Nativo helps preserve ancestral techniques and supports the sustainable development of Andean communities.\"",
+    "viewCollection": "View complete collection",
+    "featuredProducts": "Featured products",
+    "communities": {
+      "matsigenka": {
+        "name": "Matsigenka",
+        "location": "Madre de Dios, Peru",
+        "specialty": "Amazonian Textiles",
+        "description": "Ancestral guardians of Amazonian biodiversity and experts in traditional textile techniques with natural dyes.",
+        "collaboration": "15 years working together",
+        "products": "Natural looms, organic dyes, ancestral patterns"
+      },
+      "marakaeri": {
+        "name": "Marakaeri",
+        "location": "Cusco, Peru",
+        "specialty": "Artisanal Jewelry",
+        "description": "Indigenous people from the Manu region with a rich heritage in artisanal jewelry and traditional metallurgy techniques.",
+        "collaboration": "12 years of partnership",
+        "products": "Silver jewelry, semi-precious stones, cultural symbols"
+      },
+      "qeros": {
+        "name": "Q'eros",
+        "location": "Paucartambo, Cusco",
+        "specialty": "Sacred Textiles",
+        "description": "Last direct descendants of the Incas, masters in millenary textile techniques and patterns with spiritual meaning.",
+        "collaboration": "18 years of collaboration",
+        "products": "Ceremonial garments, sacred symbols, high energy weavings"
+      },
+      "ashaninka": {
+        "name": "Ashaninka",
+        "location": "Peruvian Amazon",
+        "specialty": "Textile Crafts",
+        "description": "Master weavers from the Peruvian Amazon who preserve ancestral techniques in every piece they create with dedication and respect.",
+        "collaboration": "10 years of alliance",
+        "products": "Traditional embroidery, story weavings, unique garments"
+      },
+      "guia_local": {
+        "name": "Local Guides",
+        "location": "Various communities",
+        "specialty": "Cultural Connectors",
+        "description": "Cross-cultural communication and authentic experiences that enrich every encounter with our partner communities.",
+        "collaboration": "8 years of collaboration",
+        "products": "Cultural tours, authentic experiences, genuine connections"
       }
     },
- 
+    "collaboration": {
+      "title": "Our Collaboration with Communities",
+      "description": "We work directly with indigenous communities to create authentic experiences that respect their traditions and contribute to the sustainable development of their people. Our local guides are cultural bridges that facilitate meaningful and mutually enriching encounters.",
+      "development": "Community Development",
+      "development_desc": "30% of profits allocated to local projects",
+      "sustainable": "Sustainable Tourism",
+      "sustainable_desc": "Responsible experiences that preserve culture and nature",
+      "exchange": "Cultural Exchange",
+      "exchange_desc": "Authentic encounters that enrich both parties"
+    }
+  },
+
   "pricing": {
     "monthly": "Monthly",
     "quarterly": "Quarterly",
@@ -40,7 +92,7 @@
     "price_monthly": "$89",
     "price_quarterly": "$199",
     "price_yearly": "$599",
-    "pricing_subtitle":"Choose the best option for you",
+    "pricing_subtitle": "Choose the best option for you",
     "features": {
       "unlimited": "Unlimited classes",
       "equipment": "Equipment access",
@@ -114,32 +166,31 @@
       "learn_more": "Learn more",
       "description": "Description"
     },
-   "Cusco": {
-  "title": "Cusco & Sacred Valley",
-  "description": "Discover the Heart of the Inca Empire and explore the stunning Sacred Valley. A unique journey filled with history, culture, and breathtaking landscapes.",
-  "duration": "3 days / 2 nights",
-  "level": "Suitable for all travelers",
-  "locations": "Cusco, Pisac, Ollantaytambo, Chinchero",
-  "intensity": "Moderate (suitable for most visitors)",
-  "benefits": {
-    "culture": "Explore ancient Inca and colonial sites",
-    "nature": "Enjoy unique Andean landscapes",
-    "gastronomy": "Taste authentic Andean cuisine",
-    "experience": "Feel the spiritual energy of the Sacred Valley"
-  },
-  "schedule": {
-    "day1": "Arrival in Cusco, city tour, and acclimatization",
-    "day2": "Sacred Valley excursion: Pisac & Ollantaytambo",
-    "day3": "Visit to Chinchero and return to Cusco"
-  },
-  "equipment": {
-    "clothing": "Comfortable and warm clothes",
-    "footwear": "Trekking or comfortable walking shoes",
-    "accessories": "Hat, sunscreen, and water bottle",
-    "optional": "Camera for amazing photos"
-  }
-},
-
+    "cusco": {
+      "title": "Cusco & Sacred Valley",
+      "description": "Discover the Heart of the Inca Empire and explore the stunning Sacred Valley. A unique journey filled with history, culture, and breathtaking landscapes.",
+      "duration": "3 days / 2 nights",
+      "level": "Suitable for all travelers",
+      "locations": "Cusco, Pisac, Ollantaytambo, Chinchero",
+      "intensity": "Moderate (suitable for most visitors)",
+      "benefits": {
+        "culture": "Explore ancient Inca and colonial sites",
+        "nature": "Enjoy unique Andean landscapes",
+        "gastronomy": "Taste authentic Andean cuisine",
+        "experience": "Feel the spiritual energy of the Sacred Valley"
+      },
+      "schedule": {
+        "day1": "Arrival in Cusco, city tour, and acclimatization",
+        "day2": "Sacred Valley excursion: Pisac & Ollantaytambo",
+        "day3": "Visit to Chinchero and return to Cusco"
+      },
+      "equipment": {
+        "clothing": "Comfortable and warm clothes",
+        "footwear": "Trekking or comfortable walking shoes",
+        "accessories": "Hat, sunscreen, and water bottle",
+        "optional": "Camera for amazing photos"
+      }
+    },
     "manu": {
       "title": "Manu – A Journey to the Pure Jungle",
       "description": "Exploration of Manu National Park, astonishing biodiversity.",
@@ -162,6 +213,54 @@
         "boots": "Hiking boots",
         "binoculars": "Binoculars"
       }
+    },
+    "fantastico": {
+      "title": "Fantastic Peru 10D/9N",
+      "description": "A complete journey through Lima, Paracas, Cusco and Puno. Includes Machu Picchu, Rainbow Mountain, Sacred Valley, Lake Titicaca and more.",
+      "schedule": [
+        "Day 1: Arrival in Lima",
+        "Day 2: Paracas – Ica – Huacachina",
+        "Day 3: Flight to Cusco – City Tour",
+        "Day 4: Sacred Valley of the Incas",
+        "Day 5: Machu Picchu",
+        "Day 6: Rainbow Mountain",
+        "Day 7: Humantay Lagoon",
+        "Day 8: Sun Route to Puno",
+        "Day 9: Uros and Taquile Islands",
+        "Day 10: Return"
+      ],
+      "equipment": [
+        "Tickets included",
+        "Professional bilingual guide",
+        "Selected hotels",
+        "Transport and transfers",
+        "Expedition / Voyager train"
+      ],
+      "price": "USD 1200",
+      "paymentLink": "https://www.mercadopago.com.pe/checkout/v1/payment/redirect/9c52f06b-0057-4199-8625-82df85d5612a/payment-option-form/?source=link&preference-id=2682496834-9b12c13f-4fad-4c29-b8eb-c40a21f78d5c&router-request-id=42615827-90fd-4d99-9a78-6be3b116f93c&p=3181fd1b6b5971c239a39fc93ae07246"
+    },
+    "magico": {
+      "title": "Magical Peru 8D/7N",
+      "description": "An unforgettable experience through Lima, Paracas and Cusco. Visit Huacachina, Machu Picchu, Rainbow Mountain and Humantay Lagoon.",
+      "schedule": [
+        "Day 1: Arrival in Lima",
+        "Day 2: Paracas – Ica – Huacachina",
+        "Day 3: Flight to Cusco – City Tour",
+        "Day 4: Sacred Valley of the Incas",
+        "Day 5: Machu Picchu",
+        "Day 6: Rainbow Mountain",
+        "Day 7: Humantay Lagoon",
+        "Day 8: Return"
+      ],
+      "equipment": [
+        "Tickets included",
+        "Professional bilingual guide",
+        "Selected hotels",
+        "Transport and transfers",
+        "Expedition / Voyager train"
+      ],
+      "price": "USD 950",
+      "paymentLink": "#"
     },
     "kintu": {
       "title": "Kintu – Coca Leaf and Traditions",
@@ -205,8 +304,8 @@
       }
     },
     "qeros": {
-      "title": "Encounter with the Q’eros Culture",
-      "description": "Visit the Q’eros community and learn about their ancestral customs.",
+      "title": "Encounter with the Q'eros Culture",
+      "description": "Visit the Q'eros community and learn about their ancestral customs.",
       "duration": "2 days",
       "level": "levels.intermediate",
       "intensity": "intensities.medium",
@@ -267,7 +366,7 @@
       }
     },
     "hongos_ninos_santos": {
-      "title": "‘Niños Santos’ Mushrooms – Tradition and Nature",
+      "title": "'Niños Santos' Mushrooms – Tradition and Nature",
       "description": "Explore the forest and discover the world of traditional mushrooms.",
       "duration": "1/2 day",
       "level": "levels.intermediate",
@@ -372,12 +471,70 @@
       }
     }
   },
-     "tiktok":{
-      "title":"Multimedia",
-"gallery":{
-  "title":"Galeria Tiktok",
-  "subtitle":"Veelo por ti mismo"
-}
+  "tiktok": {
+  "gallery": {
+    "title": "TikTok Gallery",
+    "subtitle": "See for yourself"
+  },
+  "instagramButton": "Instagram",
+  "followTiktokButton": "Follow on TikTok",
+  "loadingText": "Loading TikTok video...",
+  "loadingVideosText": "Loading TikTok videos...",
+  "loadingTimeText": "This may take a few seconds",
+  "followPrompt": "Did you like our content? Follow us for more adventures!",
+  "videos": {
+    "aventura_selva": {
+      "title": "Jungle Adventure",
+      "description": "Exploring Amazonian biodiversity #native #adventure #jungle"
+    },
+    "cultura_matsigenka": {
+      "title": "Matsigenka Culture",
+      "description": "Learning about Matsigenka people traditions #culture #peru"
+    },
+    "rituales_ancestrales": {
+      "title": "Ancestral Rituals",
+      "description": "Participating in traditional ceremonies #ritual #ancestral"
+    },
+    "gastronomia_local": {
+      "title": "Local Gastronomy",
+      "description": "Tasting typical dishes of the region #food #peru"
     }
-    
+  }
+}
+,
+  "location": {
+    "title": "Visit us in",
+    "locationName": "San Sebastián",
+    "description": "Find us at the Third Stop of San Sebastián, just minutes from the center of Cusco",
+    "addressTitle": "Address",
+    "address": "Third Stop of San Sebastián",
+    "city": "Cusco, Peru",
+    "addressNote": "15 minutes from the historic center",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email",
+    "hoursTitle": "Business Hours",
+    "weekHours": "Monday to Saturday: 9:00 AM - 7:00 PM",
+    "sundayHours": "Sunday: 10:00 AM - 5:00 PM",
+    "directionsButton": "Get Directions",
+    "mapIndicator": "📍 Third Stop, San Sebastián",
+    "directionsTitle": "Directions",
+    "directionsText": "From the Plaza de Armas of Cusco, take transportation to San Sebastián (15 min). Get off at the Third Stop. We are located on the main avenue.",
+    "whyVisitTitle": "Why visit us in San Sebastián?",
+    "easyAccess": "Easy access",
+    "easyAccessDesc": "Just 15 minutes from downtown Cusco with frequent transportation.",
+    "localCraft": "Local craftsmanship",
+    "localCraftDesc": "We work directly with artisans from San Sebastián and surrounding communities.",
+    "directPrices": "Direct prices",
+    "directPricesDesc": "Being close to the communities, we offer more affordable prices without intermediaries.",
+    "authenticity": "Guaranteed authenticity",
+    "authenticityDesc": "All our products are made by local artisans using traditional techniques.",
+    "howToGetTitle": "How to get to our store",
+    "fromCenter": "From Downtown",
+    "fromCenterDesc": "Take a van with \"San Sebastián\" sign (15 minutes)",
+    "taxi": "Taxi",
+    "taxiDesc": "10 minutes from Plaza de Armas (approximately S/ 8-10)",
+    "reference": "Reference",
+    "referenceDesc": "In front of the San Sebastián market, Third Stop"
+  }
+
 }
